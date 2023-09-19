@@ -1,0 +1,71 @@
+.header {
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 163px;
+    padding-right: 163px;
+
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+.table1, .table2, .table3, .table4 {
+    border: 1px solid gray;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.news {
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.news1, .news2, .news3, .news4{
+    text-align: center;
+}
+.footer {
+    background-color: dimgray;
+    padding: 30px;
+    position: -ms-device-fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 163px;
+    padding-right: 163px;
+}
+.comName {
+
+}
+.newsName {
+    text-align: center;
+}
+.container{
+    padding-left: 163px;
+    padding-right: 163px;
+}
+.lgot, .rtcard, .bank, .bankcard{
+    text-align: center;
+    align-content: center;
+}
+.news1_logo{
+    height:60%;
+    width: 60%;
+}
+.news2_logo{
+    height:50%;
+    width: 50%;
+}
+.news3_logo{
+    height:58%;
+    width: 58%;
+}
+.news4_logo{
+    height:77%;
+    width: 77%;
+}
